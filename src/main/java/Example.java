@@ -8,7 +8,7 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World! -v0.3 --branch cly";
+        return "Hello World! -v0.4 --branch cly";
     }
 
     public static void main(String[] args) {
