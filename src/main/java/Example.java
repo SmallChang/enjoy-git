@@ -8,7 +8,9 @@ public class Example {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World! -V0.5 -master update";
+
+        return "Hello World! -V0.7 -master update  ---merge合并分支";
+
     }
 
     public static void main(String[] args) {
